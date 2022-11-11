@@ -4,19 +4,20 @@
     box-sizing: border-box;
 }
 body{
-    background: #E6E6E6;
+    background: white !important;
 }
 
 /* Styles para el navbar */
 
-.container{
-    width: 98.8vw;
+.activar{
+    display: none !important;
 }
 
 .main-nav__logo img{
     width: 150px;
     height: 100px;
     margin-left: 20px;
+    transform: scale(1.7);
 }
 
 .header{
@@ -88,8 +89,7 @@ body{
     margin-right: 30px;
     
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
     padding: 0;
     padding: 20px;
 }
@@ -100,26 +100,29 @@ body{
     justify-content: space-around;
     height: 800px;
     padding: 80px;
+    width: 80%;
+    margin: 0 auto;
 }
 .section-HomeCare img{
-    height: 550px;
+    height: 650px;
+    width: 400px;
    
 }
-.container-aside__title{
-    width: 600px;
+.contenedor-aside__title{
+    width: 510px;
     margin: 0 auto;
     font-family: 'Candara';
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 45px;
+    line-height: 45px;
  
 }
 
-.container-aside__paragraph{
+.contenedor-aside__paragraph{
     width: 500px;
 }
-.container-aside{
+.contenedor-aside{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -128,7 +131,7 @@ body{
     padding: 70px;
 }
 
-.container-aside__button{
+.contenedor-aside__button{
   width: 200px;
   height: 70px;
   border-radius:  50px;
@@ -138,19 +141,19 @@ body{
   font-family: 'Candara';
   font-style: normal;
   font-weight: 700;
-  font-size: 15px;
-  line-height: 30px;
-  color: #0C6576;
+  font-size: 20px;
+  line-height: 40px;
+  color: black;
 }
-.container-image{
+.contenedor-image{
     margin-left: 110px;
 }
-.container-aside__paragraph{
+.contenedor-aside__paragraph{
     font-family: 'Candara';
     font-style: normal;
     font-weight: 400;
-    font-size: 19px;
-    line-height: 19px;
+    font-size: 30px;
+    line-height: 30px;
     color: #0C6576;
 }
 /* Segunda seccion */
@@ -159,6 +162,7 @@ body{
     align-items: center;
     width: 500px;
     margin: 0 auto;
+    transform: scale(1.3);
 }
 .section-title h2{
     font-family: 'Candara';
@@ -176,7 +180,7 @@ body{
     margin: 0 auto;
 }
 
-.container-aside .scale{
+.contenedor-aside .scale{
     font-size: 48px;
 }
 
@@ -190,21 +194,14 @@ body{
 .section-Job .block-style{
     width: 700px;
 }
-.jobs{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 700px 300px;
-    margin-top: 50px;
-    padding: 30px 60px 30px 60px;
-    
-}
+
 .item-5{
     grid-column: 2/3;
     display: flex;
     flex-direction: column;
 }
 
-.item-container-1{
+.item-contenedor-1{
    
     display: flex;
     flex-direction: column;
@@ -212,7 +209,7 @@ body{
    padding-left: 80px;
 }
 
-.item-container-2{
+.item-contenedor-2{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -227,7 +224,7 @@ body{
     margin-right: 80px;
 }
 
-.container__item{
+.contenedor__item{
     font-family: 'Candara';
     font-style: normal;
     font-weight: 400;
@@ -236,8 +233,11 @@ body{
 }
 
 .jobs p{
-    width: 430px;
+    width: 400px;
     color: #0C6576;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 auto;
     margin-top: 20px;
 }
 .section-title{
@@ -272,7 +272,7 @@ body{
 
 }
 
-.get-job .container-image{
+.get-job .contenedor-image{
     margin: 0;
 }
 
@@ -338,7 +338,7 @@ body{
     margin: 0 auto;
 }
 /* Sexta seccion */
-.section-support .container{
+.section-support .contenedor{
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
@@ -349,7 +349,7 @@ form{
     flex-direction: column;
     margin-top: 30px;
 }
-.container-information h4{
+.contenedor-information h4{
     font-family: 'Candara';
     font-style: normal;
     font-weight: 500;
@@ -359,12 +359,12 @@ form{
     justify-content: center;
     height: 50px;
 }
-.container-information .block-style{
+.contenedor-information .block-style{
         width: 300px;
         margin: 0 auto;
         margin-top: 0;
 }
-.container-information p{
+.contenedor-information p{
     width: 440px;
     display: block;
     margin-top: 20px !important;
@@ -422,7 +422,7 @@ main{
     display: flex;
     padding-top: 10px;
 }
-.social-networks .container-image{
+.social-networks .contenedor-image{
     margin: 0;
     margin-right: 20px;
 }
@@ -430,3 +430,579 @@ main{
 .social-networks img{
     height: 50px;
 }
+.carousel-item img{
+    height: 500px !important;
+    width: 300px !important;
+}
+.carousel {
+    width: 600px !important;
+    height: 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.jobs{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+.carousel-item img{
+    margin: 0 auto;
+}
+.carousel-control-prev-icon{
+    background-color:  #59BBC8;
+    border-radius: 50%;
+}
+.carousel-control-next-icon{
+    background-color:  #59BBC8;
+    border-radius: 50%;
+}
+.carousel p{
+    display: block;
+    margin: 0 auto;
+}
+.get-job p{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+
+
+
+@media (max-width: 1450px) {
+    .image-grid .image-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    
+  }
+
+
+
+@media (max-width: 1443px) {
+    .contenedor-aside {
+        margin: 0;
+    }
+    .contenedor-image {
+        margin-left: 0px;
+    }
+    .section-HomeCare section {
+        padding: 30px;
+    }
+    .contenedor-aside {
+        padding: 40px;
+        justify-content: space-around;
+    }
+    
+  }
+
+  @media (max-width: 1290px) {
+    .section-HomeCare section {
+        padding: 0px;
+    }
+    .contenedor-aside {
+        padding: 10px;
+    }
+    .contenedor-aside {
+     padding: 10px;
+    }
+    .main-nav__list {
+        display: flex;
+        list-style: none;
+        margin-right: 50px; 
+    }
+
+  }
+
+  @media (max-width: 1220px) {
+    
+    .contenedor-aside {
+        padding: 0px;
+    }
+    .contenedor-aside {
+     padding: 0px;
+    }
+    .main-nav__list {
+        display: flex;
+        list-style: none;
+        margin-right: 30px; 
+    }
+    .main-nav__list {
+        
+         margin-right: 0px; 
+    }
+    .main-nav__logo {
+         width: 6.63rem; 
+         height: 7.88rem;  
+    }
+    .main-nav__logo img {
+        width: 100px; 
+        height: 100px;
+        margin-left: 20px;
+        transform: scale(1.7);
+    }
+    ol, ul {
+        padding-left: 0rem !important;
+    }
+
+    .contenedor-aside__title {
+        /* width: 510px; */
+        margin: 0 auto;
+        font-family: 'Candara';
+        font-style: normal;
+        font-weight: 700;
+        /* font-size: 45px; */
+        line-height: 45px;
+    }
+    .logo img {
+        height: 400px;
+        width: 200px;
+    }
+    .section-HomeCare section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .section-HomeCare .block-style {
+        width: 800px;
+        height: 4px;
+        background-color: #B7D3F2;
+        margin: 0 auto;
+    }
+    
+    .section-HomeCare .section-title h2 {
+        font-size: 30px;
+    }
+    .section-title h2{
+        font-size: 30px;
+    }
+
+    
+    .title-job {
+        font-size: 30px;
+    }
+    .get-job p {
+        font-size: 20px;
+    }
+    .correo img{
+        width: 400px;
+    }
+    .header a{
+        font-size: 20px;
+    }
+  }
+  @media (max-width: 954px) {
+    .contenedor-aside__title {
+        width: 400px;
+        margin: 0 auto;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .correo img{
+        width: 320px;
+    }
+
+  }
+
+  @media (max-width: 935px) {
+    .contenedor-aside__title {
+        width: 400px;
+        margin: 0 auto;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .correo img{
+        width: 320px;
+    }
+    .main-nav__item {
+        padding-right: 0.4rem;
+        white-space: nowrap;
+        line-height: 5.88rem;
+        font-size: 20px;
+    }
+    .main-nav .main-nav__login :nth-child(2n) {
+        margin-right: 0px; 
+        padding: 0;
+        padding: 20px;
+    }
+
+    .header a {
+        font-size: 18px;
+    }
+    .correo img {
+        width: 250px;
+    }
+    .correo {
+        display: flex;
+        align-items: center;
+    }
+  }
+
+  @media (max-width: 880px) {
+    .image-grid .image-3 img{
+        width: 350px;
+    }
+    .image-grid .image-2 img{
+        width: 250px;
+    }
+    .image-grid .image-1 img{
+        width: 240px;
+    }
+    
+  }
+  @media (max-width: 850px) {
+    .section-HomeCare .block-style {
+        width: 600px !important;
+        height: 4px;
+        background-color: #B7D3F2;
+            margin: 0 auto;
+        }
+    .contenedor-aside .scale {
+            font-size: 30px;
+    }
+    .contenedor-aside__paragraph {
+        font-family: 'Candara';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px !important;
+        line-height: 25px !important;
+        color: #0C6576;
+        width: 300px !important;
+    }
+
+    .contenedor-aside__title {
+        width: 320px;
+        margin: 0 auto;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .benefits h3 {
+        font-size: 30px;
+    
+    }
+
+  }
+  @media (max-width: 780px) {
+    .header a {
+        font-size: 18px;
+    }    
+    .section-HomeCare .block-style {
+        width: 600px !important;
+        height: 4px;
+        background-color: #B7D3F2;
+            margin: 0 auto;
+        }
+        .contenedor-aside .scale {
+            font-size: 30px;
+        }
+
+    .contenedor-aside {
+        padding: 0px;
+        width: 300px;
+
+    }
+
+   
+    .contenedor-aside .scale {
+        font-size: 30px;
+    }
+    .contenedor-aside {
+        padding: 0px;
+        width: 300px;
+    }
+    .contenedor-aside__paragraph {
+        font-family: 'Candara';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+        color: #0C6576;
+        width: 230px;
+    }
+    .contenedor-aside__title {
+        width: 220px;
+        margin: 0 auto;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .benefits h3 {
+        font-size: 30px;
+    
+    }
+    
+}
+  @media only screen and (min-width: 320px) and (max-width: 779px) {
+    .main-nav{
+        display: none;
+    }
+    .activar{
+        display: block !important;
+        
+    }
+    .header{
+        display: none;
+    }
+    .bg-light{
+        background-color: #B7D3F2 !important
+    }
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 0.1rem;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(239, 236, 236, 0.55);
+        border-color: rgba(246, 243, 243, 0.1);
+    }
+    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+        color: rgba(250, 250, 250, 0.9);
+    }
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        color: rgba(25, 18, 18, 0.7);
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(250,250,250,.9);
+    }
+    .section-HomeCare .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedor-aside__title {
+        width: 320px;
+        margin: 0 auto;
+        font-size: 30px;
+        line-height: 30px;
+    }
+   .contenedor-aside__button{
+        margin: 0 auto;
+        margin-top: 20px;
+   }
+   .contenedor{
+     height: 900px !important;
+   }
+   .get-job {
+    margin-top: 30px;
+    }
+    .get-job .contenedor-image img{
+        height: 400px;
+    }
+    .section-support .contenedor{
+        height: 600px !important;
+    }
+    .section-support .contenedor {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        align-items: center;
+    }
+    
+    .input-style {
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        height: 150px;
+    }
+
+    .contenedor-image {
+        margin-left: 0px;
+        margin: 0 auto;
+    }
+    .image-grid {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .image-1 img {
+        width: 300px;
+        margin: 0 auto;
+        display: block;
+    }
+    .image-2 img {
+        width: 300px;
+        margin: 0 auto;
+        display: block;
+    }
+    .image-3 img {
+        width: 500px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .image-1{
+       margin-bottom: 20px;
+    }
+    .image-2{
+        margin-bottom: 20px;
+    }
+    .image-3{
+        margin-bottom: 20px;
+    }
+    .benefits{
+        height: 1040px !important;
+    }
+    .benefits h3 {
+        font-size: 30px;
+    
+    }
+    .section-HomeCare .block-style {
+        width: 300px !important;
+    }
+    .section-Job .block-style {
+        width: 300px;
+    }
+    .section-HomeCare .block-style {
+        width: 300px !important;
+    }
+    .section-Job .block-style {
+        width: 300px;
+    }
+    .get-job p {
+        margin-top: 20px;
+        font-size: 19px;
+        line-height: 24px;
+        text-align: center;
+        width: 320px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 723px) {
+
+    .social-networks .contenedor-image {
+        margin: 0;
+        margin-right: 20px;
+        line-height: 3rem;
+    }
+    .social-networks img {
+        height: 30px;
+    }
+    .copyright{
+        font-size: 15px;
+    }
+    .section-HomeCare .section-title h2 {
+        font-size: 20px;
+    }
+    .logo{
+        transform: scale(1);
+    }
+    .logo img {
+        height: 400px;
+        width: 400px;
+    }
+    .logo_style{
+        width: 100%;
+    }
+    .image-3 img {
+        width: 300px;
+        margin: 0 auto;
+        display: block;
+    }
+    .image-2 img {
+        width: 280px;
+        margin: 0 auto;
+        display: block;
+    }
+    .copyright {
+        width: 200px;
+    }
+
+    .input-style {
+        width: 300px;
+    }
+    
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 465px) {
+
+    .contenedor-information p {
+        width: 300px;
+    }
+    .image-grid h4 {
+        font-size: 23px; 
+    }
+    .section-HomeCare img {
+        height: 450px;
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 411px) {
+
+    .contenedor-aside__paragraph{
+        font-size: 17px !important;
+    }
+    .section-title h2{  
+        width: 300px;
+        line-height: 1.6;
+        margin: 0 auto;
+    }
+    .carousel-item img {
+        height: 320px !important;
+        width: 200px !important;
+    }
+    .jobs p{
+        width: 200px;
+    }
+    .jobs{
+        height: 600px !important;
+    }
+    .benefits h3 {
+        font-size: 22px;
+    }
+    .image-2 img{
+        width: 180px;
+    }
+    .image-grid h4 {
+        font-size: 20px;
+    }
+    .image-1 img{
+        width: 200px;
+    }
+    .benefits {
+        height: 900px !important;
+    }
+    .image-grid{
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+    .contenedor-aside__title{
+        font-size: 27px;
+        width: 220px;
+    }
+    .section-HomeCare img {
+        height: 400px;
+        width: 200px;
+    }
+    .get-job p{
+        width: 280px;
+    }
+    .social-networks .contenedor-image{
+        margin-right: 10px;
+    }
+}
+

@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lawdingo Oficial-Landing Page ">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <header class="container header">
+    <header class="contenedor header">
       <nav class="main-nav" aria-label="Main">
         <div class="main-nav__logo">
           <img src="./image/logoPNG 1.png" alt="">
@@ -36,44 +39,71 @@
         </ul>
       </nav>
     </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light activar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Home Care</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Trabaja Con Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Soporte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Iniciar Sesion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Registrate</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
     
     <main>
 
       <div class="section-HomeCare">
-        <section class="container">
+        <section class="contenedor">
 
-          <div class="container-image">
+          <div class="contenedor-image">
             <img src="./image/Protoype 1.png" alt="logo">
           </div>
 
-          <aside class="container-aside">
+          <aside class="contenedor-aside">
 
-            <h1 class="container-aside__title">Consigue a trabajadoras del hogar  dispuestas a limpiar, cocinar, lavar , atender a personas dependientes del hogar,  etc.Para  mantener su casa de la mejor manera y el cuidado que necesite.</h1>
-
-            <p class="container-aside__paragraph">Para ello, descargue la App y tendrá acceso a todas nuestras trabajadoras del hogar sin antecedentes y con recomendaciones.</p>
-
-            <button class="container-aside__button">Download  App </button>
+            <h1 class="contenedor-aside__title">Agende a su trabajadora ideal para el cuidado de su hojar en nuestra app</h1>
+            <button class="contenedor-aside__button">Download  App </button>
 
           </aside>
 
         </section>
 
         <div class="section-title">
-          <h2>Encuentra tu trabajadora ideal</h2>
+          <h2>Encuentra tu empleada del hogar que necesitas</h2>
           <div class="block-style"></div>
         </div>
 
-        <section class="container">
+        <section class="contenedor">
           
 
-          <aside class="container-aside">
-            <h1 class="container-aside__title scale">Home Care</h1>
-            <p class="container-aside__paragraph">Ya sea que necesite una trabajadorapara dejar limpio su casa o el cuidado de una persona dependiente del hogar.Navegue a  traves de nuestras numerosas trabajadorass comprometidas con su trabajo y con el mejor servicio que se le pueda brindar.</p>
-            <p class="container-aside__paragraph">Home Care brinda los profiles de cada trabajadora para que pueda visualizar sus calificaciones segun el servicio que haya ofrecido y verficar que no tengan antecedentes policiales, judiciales ni penales</p>
+          <aside class="contenedor-aside">
+            <h1 class="contenedor-aside__title scale">Home Care</h1>
+            <br>
+            <p class="contenedor-aside__paragraph">Home Care es una empresa que se dedica a buscar a la mejor empleada del hojar que necesite para el cuidado de su casa.</p>
+            <br>
+            <p class="contenedor-aside__paragraph">Para ello , tendrá que utilizar nuestra app donde se visualizará la calificación de cada trabajador que haya realizado un servicio asi como los comentarios para una mayor confianza del trabajo realizado.</p>
           </aside>
 
-          <div class="container-image logo">
-            <img class="logo"" src="./image/LogoIHC 1.png" alt="imagen-logo">
+          <div class="contenedor-image logo logo_style">
+            <img class="logo" src="./image/LogoIHC 1.png" alt="imagen-logo">
           </div>
 
         </section>
@@ -88,79 +118,80 @@
           <div class="block-style"></div>
         </div>
 
-        <section class="container jobs">
+        <section class="contenedor jobs">
            
-          <div class="item-container-1">
-            <div class="container__item item-1">
-              <h3>Conoce a las trabajadoras</h3>
-              <p>Explora sus currículos, visualiza fotos, videos, documentos y verificaciones.</p>
-            </div>
-
-            <div class="container__item item-4">
-              <h3>Cuéntale tu requerimiento</h3>
-              <p>Cuéntale tu requerimiento a las trabajadoras que elegiste, así sabrás si ellas coinciden contigo.</p>
-            </div>
-          </div>
-
-            <div class="container__item item-2">
-              <img src="./image/Persona 1.png" alt="persona">
-            </div>
-
-            <div class="item-container-2">
-               <div class="container__item item-3">
-                 <h3>Entrevístales</h3>
-                 <p>Contacta con ella y acuerde una cita para que pueda ver como es la persona que se está contratando</p>
-               </div>
-
-              <div class="container__item item-6">
-                <h3> Reserva su dia de trabajo</h3>
-                <p>Luego de verficar que es la persona adecuada para el servicio que estás buscando  reserva la cita  en el día que la necesites</p>
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./image/Proceso1.jpg" class="d-block w-50" alt="...">
+                <p>1.Ingresar a la interfaz de la app y seleccionar el boton de "Solicitar Servicio"</p>
               </div>
-
+              <div class="carousel-item">
+                <img src="./image/Proceso2.jpg" class="d-block w-50" alt="...">
+                <p>2.Luego escoger el servicio que desees dependiendo del numero de estrellas que necesites para el servicio.</p>
+              </div>
+              <div class="carousel-item">
+                <img src="./image/Proceso 3.jpg" class="d-block w-50" alt="...">
+                <p>3.Seleccionar por el precio mas conveniente por el servicio.</p>
+              </div>
+              <div class="carousel-item">
+                <img src="./image/Proceso 4.jpg" class="d-block w-50" alt="...">
+                <p>4.Despues de seleccionar a la persona por el trabajo podra ver los comentarios por el trabajo y sus cualidades para confirmar y coordinar el servicio.</p>
+              </div>
+              <div class="carousel-item">
+                <img src="./image/Proceso 5.jpg" class="d-block w-50" alt="...">
+                <p>5.Cuando se termine de coordinar el servicio podra ver el detalle de la reserva el que le indicara el horario y el dia que llegara el trabajador.</p>
+              </div>
+              <div class="carousel-item">
+                <img src="./image/Proceso 6.jpg" class="d-block w-50" alt="...">
+                <p>6.Al terminar, el consumidor podra ver la sus solicitudes.</p>
+              </div>
             </div>
-            
-
-            <div class="container__item item-5">
-              <h3>Calificala</h3>
-              <p>Luego de culminar su servicio puede darle una califcacion del 1 al 5  para saber la calidad de servicio que  brindó</p>
-            </div>
-
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
             
 
         </section>
 
         <div class="styleBlock"></div>
 
-        <section class="container get-job">
+        <section class="contenedor get-job">
           <h3 class="title-job">Trabaja con nosotros</h3>
           <div class="block-style"></div>
 
           <p>Si eres una trabajadora responsable  y con muchas ganas de querer  trabajar, puedes <br> unirte a nuestra comunidad de empleo.Para ello, tienes  que  rellenar un formulario  y <br>enviar tu CV  en el siguiente boton del enlace. </p>
 
-          <div class="container-image">
+          <div class="contenedor-image">
             <img src="./image/Person2.png" alt="image-employee">
           </div>
 
-          <button class="container-aside__button">Inscribite</button>
+          <button class="contenedor-aside__button">Inscribite</button>
 
         </section>
 
         <div class="styleBlock"></div>
 
-        <section class="container benefits">
+        <section class="contenedor benefits">
           <h3>Podras obtener con nosotros</h3>
           <div class="block-style"></div>
 
           <div class="image-grid">
-            <div class="container-image image-1">
+            <div class="contenedor-image image-1">
               <h4>Agradable  ambiente  laboral</h4>
               <img src="./image/Trabajador 1.png" alt="trabajador">
             </div>
-            <div class="container-image image-2">
+            <div class="contenedor-image image-2">
               <h4>Flexibilidad en tus horarios</h4>
               <img src="./image/calendario5 1.png" alt="calendario">
             </div>
-            <div class="container-image image-3">
+            <div class="contenedor-image image-3">
               <h4>Pagos puntuales</h4>
               <img src="./image/pago 1.png" alt="pago">
             </div>
@@ -171,11 +202,11 @@
       <div class="styleBlock"></div>
 
       <div class="section-support">
-        <section class="container">
-          <div class="container-image">
+        <section class="contenedor">
+          <div class="contenedor-image correo">
             <img src="./image/mensaje 1.png" alt="mensaje">
           </div>
-          <div class="container-information">
+          <div class="contenedor-information">
            <h4>Comunicanos!!</h4>
            <div class="block-style"></div>
            <p>Envíanos un correo para cualquier consulta que tengas sobre nuestro servicio o  inconvenientes que tengas.</p>
@@ -200,21 +231,21 @@
     
       <div class="social-networks">
 
-        <div class="container-image">
+        <div class="contenedor-image">
           <img src="./image/Facebook 1.png" alt="mensaje">
         </div>
 
-        <div class="container-image">
+        <div class="contenedor-image">
           <img src="./image/ig 1.png" alt="mensaje">
         </div>
 
-        <div class="container-image">
+        <div class="contenedor-image">
           <img src="./image/twitter 1 (1).png" alt="mensaje">
         </div>
 
       </div>
     </footer>
     
-    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
